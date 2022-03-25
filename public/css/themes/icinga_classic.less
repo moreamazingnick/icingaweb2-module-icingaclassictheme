@@ -1,0 +1,72 @@
+/*! Icinga Web 2 | (c) 2013 Icinga Development Team | GPLv2+ */
+
+@light-mode: {
+  :root {
+     --icinga-blue: #0095bf;
+     --body-bg-color: #fff;
+     --menu-bg-color:  #0095bf;
+     --menu-search-hover-bg-color: rgba(64, 64, 64, 150);
+     --menu-color: #fff;
+     --menu-active-bg-color: #333;
+     --menu-hover-bg-color: rgba(64,64,64,150);
+     --menu-2ndlvl-color: #eaeaea;
+     --menu-2ndlvl-active-color: #eaeaea;
+     --menu-2ndlvl-active-hover-color: #eaeaea;
+     --menu-highlight-color: @icinga-blue;
+     --menu-active-hover-bg-color: @icinga-blue;
+     --menu-highlight-hover-bg-color: @icinga-blue;
+     --menu-2ndlvl-active-bg-color: @icinga-blue;
+     --menu-2ndlvl-active-hover-bg-color: @icinga-blue;
+     --control-color: @icinga-blue;
+     --gipfl-color-main: @icinga-blue;
+     --tab-hover-bg-color: #0086ac;
+     --suggestions-focus-bg: @icinga-blue;
+     --search-term-highlighted-bg: @icinga-blue;
+     --primary-button-bg: @icinga-blue;
+  }
+ 
+
+  .icinga-controls select:not([multiple]) {
+     background-image: url(../img/icingaclassictheme/select-icon.svg);
+  }
+  #menu {
+     background-color: #494949;
+  }
+
+  #menu {
+     background-color: #494944;
+  }
+
+  #menu .nav-level-1 > .nav-item.active {
+     color: #ffffff!important;
+  }
+
+  #menu .nav-level-2 > .nav-item:hover {
+     background-color: rgba(13,13,15,150);
+  }
+
+  #menu .nav-level-1 > li.nav-item.hover:not(.active) > ul > .nav-item:hover {
+     background-color: @gray-lighter;
+
+  }
+
+  #menu ul:not(.nav-level-2)>.selected>a:focus {
+     background-color: @icinga-blue;
+  }
+
+
+  #menu input.search {
+     background-image: url(../img/icons/search_white.png)!important;
+  }
+  #header-logo-container {
+     color: #fff;
+  }
+};
+
+#header-logo, #mobile-menu-logo {
+        color: #fff;
+        filter: none!important;
+}
+
+
+
