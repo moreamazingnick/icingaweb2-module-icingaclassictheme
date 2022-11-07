@@ -9,4 +9,3 @@ enable module
 
 the classic theme is available in light mode
 
-improved dark theme for icinga director 
