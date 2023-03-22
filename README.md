@@ -1,4 +1,5 @@
 #DEPRECATED in favour of icingaweb2-module-icingalegacytheme
+
 https://github.com/moreamazingnick/icingaweb2-module-icingalegacytheme
 
 # icingaweb2-module-icingaclassictheme for 2.10
